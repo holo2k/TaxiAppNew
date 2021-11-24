@@ -2,6 +2,13 @@ package com.example.taxiapp
 
 data class guide(val title:String, val desc: String, val image: Int)
 
+data class login(val id:String,
+                 val phone:String,
+                 val Name:String,
+                 val avatar:String,
+                 val token:String)
+
+
 object list {
     val list = arrayListOf(
         guide

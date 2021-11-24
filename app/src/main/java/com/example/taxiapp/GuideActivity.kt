@@ -42,7 +42,7 @@ class GuideActivity : AppCompatActivity() {
 
     fun guide(view: View){
         when(viewpager.currentItem){
-            2->startActivity(Intent(this,SignUpActivity::class.java))
+            2->startActivity(Intent(this,SignInActivity::class.java))
             else->viewpager.currentItem++
         }
     }
