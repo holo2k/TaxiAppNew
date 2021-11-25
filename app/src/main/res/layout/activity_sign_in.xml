@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <EditText
-        android:id="@+id/etPhone"
+        android:id="@+id/etEmail"
         android:layout_width="328dp"
         android:inputType="textEmailAddress"
         android:layout_height="55dp"
@@ -27,7 +27,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgLogo"
         android:layout_marginTop="100dp"
-        android:hint="Телефон"
+        android:hint="Email"
         android:fontFamily="@font/montserrat"
         android:textSize="22dp"
         android:textColorHint="@color/yellow"
@@ -40,7 +40,7 @@
         android:background="@drawable/text_shape"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPhone"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail"
         android:layout_marginTop="20dp"
         android:hint="Пароль"
         android:fontFamily="@font/montserrat"

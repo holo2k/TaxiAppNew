@@ -30,21 +30,24 @@
         android:textSize="22dp"
         android:textColorHint="@color/yellow"
         android:paddingStart="20dp"></EditText>
+
     <EditText
-        android:id="@+id/etPhone"
+        android:id="@+id/etEmailreg"
         android:layout_width="328dp"
-        android:inputType="phone"
         android:layout_height="55dp"
-        android:background="@drawable/text_shape"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etName"
         android:layout_marginTop="20dp"
-        android:hint="Телефон"
+        android:background="@drawable/text_shape"
         android:fontFamily="@font/montserrat"
-        android:textSize="22dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
         android:textColorHint="@color/yellow"
-        android:paddingStart="20dp"></EditText>
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName"></EditText>
+
     <EditText
         android:id="@+id/etPass"
         android:inputType="textPassword"
@@ -53,7 +56,7 @@
         android:background="@drawable/text_shape"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPhone"
+        app:layout_constraintTop_toBottomOf="@+id/etEmailreg"
         android:layout_marginTop="20dp"
         android:hint="Пароль"
         android:fontFamily="@font/montserrat"

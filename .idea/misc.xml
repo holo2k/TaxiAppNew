@@ -3,22 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/drawable/image_shape.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaxiApp/app/src/main/res/layout/activity_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaxiApp/app/src/main/res/layout/activity_sign_in.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaxiApp/app/src/main/res/layout/activity_sign_up.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaxiApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaxiApp/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaxiApp/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaxiApp/app/src/main/res/layout/vp_adapter.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaxiApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/drawable/tab_base.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/drawable/tab_select.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/drawable/tab_selector.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/drawable/text_shape_ylw.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/layout/activity_guide.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/layout/activity_launch.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
-        <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/layout/activity_menu.xml" value="0.3234375" />
-        <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
-        <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/layout/activity_sign_up.xml" value="0.31927083333333334" />
-        <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/layout/fragment_dashboard.xml" value="0.3234375" />
-        <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/layout/fragment_home.xml" value="0.3234375" />
-        <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/layout/fragment_notifications.xml" value="0.3234375" />
         <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/layout/vp_adapter.xml" value="0.23741007194244604" />
-        <entry key="..\:/Users/holo/AndroidStudioProjects/TaxiApp2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3234375" />
       </map>
     </option>
   </component>
@@ -27,5 +26,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
