@@ -36,12 +36,6 @@ class HomeFragment : Fragment() {
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
-        sharedPreferences = activity?.getSharedPreferences("main", Context.MODE_PRIVATE)!!
-        val phone = sharedPreferences.getString("phone",null)
-        val avatar = sharedPreferences.getString("avatar",null)
-        val name = sharedPreferences.getString("name",null)
-        Toast.makeText(requireContext(), phone, Toast.LENGTH_SHORT).show()
-
 
         return root
     }

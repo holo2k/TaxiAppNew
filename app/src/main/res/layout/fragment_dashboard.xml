@@ -4,28 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.DashboardFragment"
-    android:background="@drawable/back">
+    tools:context=".ui.dashboard.DashboardFragment">
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/tvPoezdki"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat"
-        android:textSize="25dp"
+        android:gravity="start"
+        android:text="История поездок:"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="25dp"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
         app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center"
-        android:text="Никита Беликов"/>
+        android:layout_marginTop="250dp"/>
 
-    <ImageView
-        android:id="@+id/imgAvatar"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/avatar"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/poezdkiRecycler"
+        android:layout_width="393dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:foregroundGravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+        app:layout_constraintTop_toBottomOf="@id/tvPoezdki"
+        />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/yellow"
+        android:onClick="exit"
+        android:text="Выход"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poezdkiRecycler"></Button>
 </androidx.constraintlayout.widget.ConstraintLayout>

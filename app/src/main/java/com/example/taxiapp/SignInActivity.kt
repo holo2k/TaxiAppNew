@@ -63,7 +63,7 @@ class SignInActivity : AppCompatActivity() {
                             val editor =  sharedPreferences.edit()
                             editor.putString("id",response.body()?.id)
                             editor.putString("avatar",response.body()?.avatar)
-                            editor.putString("name",response.body()?.Name)
+                            editor.putString("Name",response.body()?.Name)
                             editor.apply()
                             val menu = Intent(this@SignInActivity, MenuActivity::class.java)
                             startActivity(menu)

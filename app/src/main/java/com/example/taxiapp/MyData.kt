@@ -7,6 +7,8 @@ data class login(val id:String,
                  val Name:String,
                  val avatar:String,
                  val token:String)
+data class feelings(val success:Boolean, val data: ArrayList<data_feelings>)
+data class data_feelings(val id:Int, val title:String, val image:String, val position: Int, val from:String,val to:String)
 
 
 object list {
