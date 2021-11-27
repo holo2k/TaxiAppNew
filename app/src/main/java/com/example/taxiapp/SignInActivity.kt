@@ -4,13 +4,10 @@ import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Patterns
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.example.taxiapp.net.ApiRet
-import com.example.taxiapp.net.MyRetrofit
 import retrofit2.Call
 import retrofit2.Response
 import java.util.regex.Pattern.compile
@@ -50,8 +47,7 @@ class SignInActivity : AppCompatActivity() {
         {
             if(EmailValid(email.text.toString()))
             {
-                val log = MyRetrofit().getRetrofit()
-                val getApi=log.create(ApiRet::class.java)
+                val getApi = Obj.getRetrofit()
                 var hashMap:HashMap<String,String> = HashMap<String,String>()
                 hashMap.put("email",email.text.toString())
                 hashMap.put("password", password.text.toString())
@@ -63,7 +59,7 @@ class SignInActivity : AppCompatActivity() {
                             val editor =  sharedPreferences.edit()
                             editor.putString("id",response.body()?.id)
                             editor.putString("avatar",response.body()?.avatar)
-                            editor.putString("Name",response.body()?.Name)
+                            editor.putString("Name",response.body()?.nickName)
                             editor.apply()
                             val menu = Intent(this@SignInActivity, MenuActivity::class.java)
                             startActivity(menu)

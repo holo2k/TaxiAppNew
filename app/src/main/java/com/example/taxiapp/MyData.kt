@@ -2,9 +2,11 @@ package com.example.taxiapp
 
 data class guide(val title:String, val desc: String, val image: Int)
 
+data class data_cars(val title:String, val image:Int)
+
 data class login(val id:String,
                  val phone:String,
-                 val Name:String,
+                 val nickName:String,
                  val avatar:String,
                  val token:String)
 data class feelings(val success:Boolean, val data: ArrayList<data_feelings>)
@@ -31,5 +33,21 @@ object list {
             "Вы можете заказать такси в любое время суток Вы можете заказать такси в любое время сутокВы можете заказать такси в любое время сутокВы можете заказать такси в любое время сутокВы можете заказать такси в любое время суток.",
             R.drawable.allday
         )
+    )
+
+}
+
+object listOfCars{
+    val listOfCars= arrayListOf(
+        data_cars(
+            "Эконом",
+            R.drawable.econom
+        ),
+        data_cars(
+            "Комфорт",
+            R.drawable.comfort
+        ),
+        data_cars("Бизнес",
+        R.drawable.business)
     )
 }
